@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fdz/css/main_framadza.css">
+	<link rel="icon" type="image/x-icon" href="fdz.ico">
+	<title>FramaDza</title>
+</head>
+
+<body class="bc-white bg-geo-4">
+	<!-- Header -->
+	<div class="mg-a wh-p100 bc-white-t1">
+		<div class="mg-a mx-wh-1200 mn-wh-765 flex jfc-cn alit-cn">
+			<div class="mg-2 wh-50 rv-txa-center"><img class="wh-50-abs" src="framadza.png"></div>
+			<div class="mg-2 wh-500 rv-txa-center"><a href=".">
+					<h2 class="mg-0 pd-0"><span class="c-blue-1 mg-0">Frama</span><span class="c-blue-2 mg-0">Dza</span>
+					</h2>
+				</a></div>
+			<div class="mg-2 wh-600 jfc-cn alit-cn rv-txa-center flex-abs">
+				<div> <a class="mg-a c-black" href="documentation.html"> Docs</a></div>
+				<div> <a class="mg-a c-black mgl-20" href="get-start.html"> Get Started</a></div>
+				<div> <a class="mg-a c-black mgl-20" href="https://forms.gle/guCthwZ2Rh5rPJbd6"> Send Error</a></div>
+				<div> <a class="mg-a c-black mgl-20" href="about.html"> About</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+
+	<!-- Head Text -->
+	<div class="wh-p100 mg-a pdb-10 pdt-10">
+		<div class="mg-a mx-wh-1200 mn-wh-765">
+			<div class="mg-20 txa-center">
+				<h1 class="fz-50"><span class="c-blue-1 txs-n">Make your own Design!!</span></h1>
+			</div>
+		</div>
+	</div>
+	<!-- Head Text -->
+
+	<!-- Contents -->
+	<div class="mg-a wh-p100 bc-white pdt-25">
+		<div class="mg-a mx-wh-1200 mn-wh-765 flex">
+			<div class="wh-400 bc-blue-1-t1 br-10 ht-p100">
+				<div class="mg-15">
+					<!--
+					<h3 class="mg-10 pd-5 txa-center bc-blue-1 c-white br-5">Docs</h3>
+					<select class="pd-10 wh-p100 bc-blue-1 br-5 c-white mgb-5" name="forma" onchange="location = this.value;">
+						<option class="wh-p100 pd-10 fz-18 c-white" value="#Opening">Fundamental</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#deffonts">Default Font</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defmabor">Default Margin and Border</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defsty">Deafult Styling</option>
+					</select>
+					<select class="pd-10 wh-p100 bc-blue-1 br-5 c-white mgb-5" name="forma" onchange="location = this.value;">
+						<option class="wh-p100 pd-10 fz-18 c-white" value="#Opening">Core CSS</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#deffonts">Default Font</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defmabor">Default Margin and Border</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defsty">Deafult Styling</option>
+					</select>
+					<select class="pd-10 wh-p100 bc-blue-1 br-5 c-white" name="forma" onchange="location = this.value;">
+						<option class="wh-p100 pd-10 fz-18 c-white" value="#Opening">Components</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#deffonts">Default Font</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defmabor">Default Margin and Border</option>
+						<option class="wh-p100 pd-10 fz-18 c-white" value="documentation.html#defsty">Deafult Styling</option>
+					</select>
+					-->
+
+					<h3 class="mg-10 pd-5 txa-center bc-blue-1 c-white br-5">Docs</h3>
+					<p><a class="c-black" href="#Docs1"><i class="fa fa-bars c-blue-1" aria-hidden="true"></i>
+							Fundamental</a></p>
+					<div class="show-2" id="Docs1">
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#funda-fonts"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Default Font</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#funda-mabor"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Default Margin and Border</a>
+						</div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#funda-sty"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Defaukt Styling</a></div>
+					</div>
+					<p><a class="c-black" href="#Docs2"><i class="fa fa-bars c-blue-1" aria-hidden="true"></i> Core
+							CSS</a></p>
+					<div class="show-2" id="Docs2">
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Border"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Border</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Margin"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Margin and Padding</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Display"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Display Etc.</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Fonts"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Fonts</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Font-Styling"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Fonts Styling</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Color"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Color</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#cssc-Sizing"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Sizing</a></div>
+					</div>
+					<p><a class="c-black" href="#Docs3"><i class="fa fa-bars c-blue-1" aria-hidden="true"></i> Get
+							Components</a></p>
+					<div class="show-2" id="Docs3">
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Header"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Header</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Footer"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Footer</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Card"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Card</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Login-Form"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Login Form</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Register-Form"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Register Form</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Box"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Box</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Button"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Button</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#compt-Show-Hide"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Button Show Hide</a></div>
+					</div>
+					<p><a class="c-black" href="#Docs4"><i class="fa fa-bars c-blue-1" aria-hidden="true"></i> Website
+							Template</a></p>
+					<div class="show-2" id="Docs4">
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#templ-Blog"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Blog</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#templ-Company-Web"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Company Website</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#templ-CV-Web"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> CV Website</a></div>
+						<div class="pdl-20 mgl-20 b-bt-c1"><a class="c-black" href="#templ-Porto-Web"><i
+									class="fa fa-hashtag c-blue-1" aria-hidden="true"></i> Portofolio Website</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="wh-800">
+				<p>
+					<!-- Fundamental -->
+					<div class="show-2" id="Docs1">
+						<h1 class="mg-5">Quick Guide</h1>
+						<p class="mg-10">Gunakan menu pada bar kiri (Jika menggunakan mode Dekstop) atau gunakan menu
+							diatas (Jika menggunakan mode mobile)</p>
+					</div>
+					<div class="show-2" id="funda-fonts">
+						<h1 class="mg-5">Default Fonts</h1>
+						<p class="mg-10"></p>
+					</div>
+					<div class="show-2" id="funda-mabor">
+						<h1 class="mg-5">Default Margin and Border</h1>
+						<p class="mg-10">Detail Default Margin and Border</p>
+					</div>
+					<div class="show-2" id="funda-sty">
+						<h1 class="mg-5">Default Style</h1>
+						<p class="mg-10">Deskripsi Default Style</p>
+					</div>
+
+					<!-- CSS Core -->
+					<div class="show-2" id="cssc-Border">
+						<h1 class="mg-5">Border</h1>
+						<p class="mg-10">Border adalah garis yang mengelilingi suatu atribut, border biasa digunakan
+							juga untuk memberikan garis objek atau memberikan bayangan pada objek.
+							<h2>Border / Garis</h2>
+							<h3>
+								<ul>
+									<li>Border Non-Color</li>
+								</ul>
+							</h3>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">b-0</td>
+									<td class="b-c2 pd-5">Memberikan Border 0 pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">b-1</td>
+									<td class="b-c2 pd-5">Memberikan Border 1 pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">n</td>
+									<td class="b-c2 pd-5">b-<i>n</i></td>
+									<td class="b-c2 pd-5">Memberikan Border N pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">20</td>
+									<td class="b-c2 pd-5">b-20</td>
+									<td class="b-c2 pd-5">Memberikan Border 20 pixel</td>
+								</tr>
+							</Table>
+							<p class="txa-center">Tabel 1. Border<br></p>
+							<h3>
+								<ul>
+									<li>Border Color</li>
+								</ul>
+							</h3>
+							<p>Tambahkan huruf <i><b>c</b></i> sebelum kode pixel untuk memberikan warna <b>Hitam</b>
+								pada border.</p>
+							<p><b>Contoh :</b> jika anda ingin memasang border dengan ukuran <b>4 pixel</b> dengan warna
+								hitam <BR><i><b>&lt;class="b-<b>c</b>4"&gt;</b></i></p>
+							<p>Gunakan label berikut untuk warna lain :</p>
+							<div class="pd-10 bc-bg-2 wh-p100">
+								<p>Dalam versi ini warna lain belum tersedia</p>
+							</div>
+							<h2>One Line Border / Garis Satu Jalur</h2>
+							<h3>
+								<ul>
+									<li>One Line Border Non-Color</li>
+								</ul>
+							</h3>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">b-bb-1</td>
+									<td class="b-c2 pd-5">Memberikan Border garis bawah 1 Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">b-bb-2</td>
+									<td class="b-c2 pd-5">Memberikan Border garis bawah 2 Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">n</td>
+									<td class="b-c2 pd-5">b-bb-<i>n</i></td>
+									<td class="b-c2 pd-5">Memberikan Border garis bawah <i>n</i> Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">20</td>
+									<td class="b-c2 pd-5">b-bb-20</td>
+									<td class="b-c2 pd-5">Memberikan Border garis bawah 20 Pixel</td>
+								</tr>
+							</Table>
+							<p class="txa-center">Tabel 2. One Line Border<br></p>
+							<p>Ada 4 jenis garis saat membuat sebuah Border, yaitu Top (Garis Atas), Bottom (Garis
+								Bawah), Left (Garis Kiri), dan Right (Garis Kanan)</p>
+							<p>Semua nya diwakili dengan label berikut : <br>
+								<ul>
+									<li><b>bt</b> untuk Border Top</li>
+									<li><b>bb</b> untuk Border Bottom</li>
+									<li><b>bl</b> untuk Border Left</li>
+									<li><b>br</b> untuk Border Right</li>
+								</ul>
+							</p>
+							<p>Untuk dapat menggunakan <i>One Line Border</i> anda cukup menganti kode <i><b>bb</b></i>
+								pada tabel diatas menggunakan label pada list diatas</p>
+							<h3>
+								<ul>
+									<li>One Line Border Color</li>
+								</ul>
+							</h3>
+							<p>Tambahkan huruf <i><b>c</b></i> sebelum kode pixel untuk memberikan warna <b>Hitam</b>
+								pada border.</p>
+							<p><b>Contoh :</b> jika anda ingin memasang border bottom dengan ukuran <b>4 pixel</b>
+								dengan warna
+								hitam <BR><i><b>&lt;class="b-bb-<b>c</b>4"&gt;</b></i></p>
+							<p>Gunakan label berikut untuk warna lain :</p>
+							<div class="pd-10 bc-bg-2 wh-p100">
+								<p>Dalam versi ini warna lain belum tersedia</p>
+							</div>
+
+							<h2>Border Radius / Garis Radius</h2>
+							<p>Garis yang menghasilkan lengkungan di setiap siku siku atribut. Anda dapat gunakan
+								persentase atau pixel(px) untuk membuat <i>Border Radius</i></p>
+							<h3>
+								<ul>
+									<li>Border Radius Non-Color</li>
+								</ul>
+							</h3>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">br-p10</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 10%</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">br-p20</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 20%</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">n</td>
+									<td class="b-c2 pd-5">br-p<i>n</i></td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar <i>n</i>%</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">10</td>
+									<td class="b-c2 pd-5">br-p100</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 100%</td>
+								</tr>
+							</Table>
+							<p class="txa-center">Tabel 3. Border Radius Menggunakan Persentase<br></p>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">br-5</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 5 Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">br-6</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 6 Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">3</td>
+									<td class="b-c2 pd-5">br-6</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 7 Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">n</td>
+									<td class="b-c2 pd-5">br-<i>n</i></td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar <i>n</i> Pixel</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">100</td>
+									<td class="b-c2 pd-5">br-100</td>
+									<td class="b-c2 pd-5">Memberikan Border Radius Sebesar 100 Pixel</td>
+								</tr>
+							</Table>
+							<p class="txa-center">Tabel 4. Border Radius Menggunakan Pixel<br></p>
+							<h3>
+								<ul>
+									<li>Border Radius Color</li>
+								</ul>
+							</h3>
+							<p>Tambahkan huruf <i><b>c</b></i> sebelum kode pixel untuk memberikan warna <b>Hitam</b>
+								pada border.</p>
+							<p><b>Contoh :</b> jika anda ingin memasang border radius dengan ukuran <b>5 pixel</b>
+								dengan warna
+								hitam <BR><i><b>&lt;class="br-<b>c</b>5"&gt;</b></i></p>
+							<p><b class="bc-red-3 c-white pd-5">Penting :</b> Border Radius yang menggunakan persentase
+								tidak bisa menggunakan Warna</p>
+							<p>Gunakan label berikut untuk warna lain :</p>
+							<div class="pd-10 bc-bg-2 wh-p100">
+								<p>Dalam versi ini warna lain belum tersedia</p>
+							</div>
+
+							<h2>Box Shadow / Bayangan Kotak</h2>
+							<p>Menghasilkan bayangan pada Atribut tertentu yang dipasang kode ini</p>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">bs-1</td>
+									<td class="b-c2 pd-5">Memberikan Bayangan pada kotak dengan Transparasi 10%</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">bs-2</td>
+									<td class="b-c2 pd-5">Memberikan Bayangan pada kotak dengan Transparasi 20%</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">n</td>
+									<td class="b-c2 pd-5">bs-n<i>n</i></td>
+									<td class="b-c2 pd-5">Memberikan Bayangan pada kotak dengan Transparasi <i>n</i>%
+									</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">10</td>
+									<td class="b-c2 pd-5">bs-10</td>
+									<td class="b-c2 pd-5">Memberikan Bayangan pada kotak dengan Transparasi 100%</td>
+								</tr>
+							</Table>
+						</p>
+					</div>
+					<div class="show-2" id="cssc-Margin">
+						<h1 class="mg-5">Margin and Padding</h1>
+						<h2>Margin</h2>
+						<p class="mg-10">Margin adalah jarak antara atribut dengan atribut lain.</p>
+						<h3>
+							<ul>
+								<li>Margin All Side / Margin Semua Sisi</li>
+							</ul>
+						</h3>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">mg-a</td>
+								<td class="b-c2 pd-5">Memberikan Margin Auto</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">mg-0</td>
+								<td class="b-c2 pd-5">Memberikan Margin 0 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">mg-1</td>
+								<td class="b-c2 pd-5">Memberikan Margin 1 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">mg-2</td>
+								<td class="b-c2 pd-5">Memberikan Margin 2 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">mg-3</td>
+								<td class="b-c2 pd-5">Memberikan Margin 3 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">mg-4</td>
+								<td class="b-c2 pd-5">Memberikan Margin 4 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">mg-5</td>
+								<td class="b-c2 pd-5">Memberikan Margin 5 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">n</td>
+								<td class="b-c2 pd-5">mg-<i>n</i></td>
+								<td class="b-c2 pd-5">Memberikan Margin N pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">50</td>
+								<td class="b-c2 pd-5">mg-50</td>
+								<td class="b-c2 pd-5">Memberikan Margin 50 pixel</td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 1. Margin All Side<br></p>
+
+						<h3>
+							<ul>
+								<li>Margin One Side / Margin Satu Sisi</li>
+							</ul>
+						</h3>
+						<p>Sama seperti border, Margin juga punya 4 sisi yang bisa kita atur ukuran Marginnya masing
+							masing yaitu Margin Bottom (Bawah), Margin Top (Atas), Margin Left (kiri) dan Margin Right
+							(kanan).</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">mgt-a</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top Auto</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">mgt-0</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 0 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">mgt-1</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 1 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">mgt-2</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 2 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">mgt-3</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 3 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">mgt-4</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 4 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">mgt-5</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 5 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">n</td>
+								<td class="b-c2 pd-5">mgt-<i>n</i></td>
+								<td class="b-c2 pd-5">Memberikan Margin Top N pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">50</td>
+								<td class="b-c2 pd-5">mgt-50</td>
+								<td class="b-c2 pd-5">Memberikan Margin Top 50 pixel</td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 2. Margin One Side<br></p>
+						<p>unuk memberikan margin pada sisi lain cukup ubah <i><b>mgt</b></i> sesuai dengan label label
+							berikut :</p>
+						<ul>
+							<li><i><b>mgt</b></i> untuk margin Top / Atas</li>
+							<li><i><b>mgb</b></i> untuk margin Bottom / Bawah</li>
+							<li><i><b>mgl</b></i> untuk margin Left / Kiri</li>
+							<li><i><b>mgr</b></i> untuk margin Right / Kanan</li>
+						</ul>
+						<br>
+
+						<!-- Padding -->
+						<h2>Padding</h2>
+						<p class="mg-10">Padding adalah jarak antara konten yang ada dalam atribut dengan koonten yang
+							ada dalam atribut tersebut.</p>
+						<h3>
+							<ul>
+								<li>Padding All Side / Padding Semua Sisi</li>
+							</ul>
+						</h3>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">pd-a</td>
+								<td class="b-c2 pd-5">Memberikan Padding Auto</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">pd-0</td>
+								<td class="b-c2 pd-5">Memberikan Padding 0 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">pd-1</td>
+								<td class="b-c2 pd-5">Memberikan Padding 1 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">pd-2</td>
+								<td class="b-c2 pd-5">Memberikan Padding 2 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">pd-3</td>
+								<td class="b-c2 pd-5">Memberikan Padding 3 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">pd-4</td>
+								<td class="b-c2 pd-5">Memberikan Padding 4 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">pd-5</td>
+								<td class="b-c2 pd-5">Memberikan Padding 5 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">n</td>
+								<td class="b-c2 pd-5">pd-<i>n</i></td>
+								<td class="b-c2 pd-5">Memberikan Padding N pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">50</td>
+								<td class="b-c2 pd-5">pd-50</td>
+								<td class="b-c2 pd-5">Memberikan Padding 50 pixel</td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 3. Padding All Side<br></p>
+
+						<h3>
+							<ul>
+								<li>Padding One Side / Padding Satu Sisi</li>
+							</ul>
+						</h3>
+						<p>Sama seperti border, Padding juga punya 4 sisi yang bisa kita atur ukuran Paddingnya masing
+							masing yaitu Padding Bottom (Bawah), Padding Top (Atas), Padding Left (kiri) dan Padding
+							Right (kanan).</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">pdt-a</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top Auto</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">@</td>
+								<td class="b-c2 pd-5">pdt-0</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 0 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">pdt-1</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 1 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">pdt-2</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 2 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">pdt-3</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 3 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">pdt-4</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 4 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">pdt-5</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 5 pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">n</td>
+								<td class="b-c2 pd-5">pdt-<i>n</i></td>
+								<td class="b-c2 pd-5">Memberikan Padding Top N pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">50</td>
+								<td class="b-c2 pd-5">pdt-50</td>
+								<td class="b-c2 pd-5">Memberikan Padding Top 50 pixel</td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 4. Padding One Side<br></p>
+						<p>untuk memberikan Padding pada sisi lain cukup ubah <i><b>pdt</b></i> sesuai dengan label
+							label berikut :</p>
+						<ul>
+							<li><i><b>pdt</b></i> untuk Padding Top / Atas</li>
+							<li><i><b>pdb</b></i> untuk Padding Bottom / Bawah</li>
+							<li><i><b>pdl</b></i> untuk Padding Left / Kiri</li>
+							<li><i><b>pdr</b></i> untuk Padding Right / Kanan</li>
+						</ul>
+					</div>
+
+					<div class="show-2" id="cssc-Display">
+						<h1 class="mg-5">Display</h1>
+						<h2>Display</h2>
+						<p class="mg-10">Display adalah bagaimana sebuah atribut ingin di tempatkan, Berjajar
+							Horizontal, vertikal atau berada di depan atrbiut lain dan sejenisnya. Berikut kode yang
+							bisa anda gunakan untuk memanggil fungsi display.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">dnone</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>none</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">inline</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>inline</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">inblock</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>inline block</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">inflex</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>inline flex</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">ingrid</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>inline grid</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">6</td>
+								<td class="b-c2 pd-5">flex</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>felx</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">7</td>
+								<td class="b-c2 pd-5">block</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>block</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">8</td>
+								<td class="b-c2 pd-5">grid</td>
+								<td class="b-c2 pd-5">Memberikan Display <i>grid</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 1. Display<br></p>
+
+						<h2>Position and Floats</h2>
+						<p class="mg-10"><b>Position</b> (Posisi) dalam CSS mengontrol tata letak elemen di dalam halaman web.
+							Properti ini memungkinkan Anda menentukan bagaimana elemen-elemen HTML ditempatkan relatif
+							terhadap elemen lain atau terhadap viewport (area tampilan di layar).</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">pst-ab</td>
+								<td class="b-c2 pd-5">Memberikan Position <i>Absolute</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">pst-rt</td>
+								<td class="b-c2 pd-5">Memberikan Position <i>relative</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">pst-fx</td>
+								<td class="b-c2 pd-5">Memberikan Position <i>fixed</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">pst-st</td>
+								<td class="b-c2 pd-5">Memberikan Position <i>static</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">pst-sk</td>
+								<td class="b-c2 pd-5">Memberikan Position <i>sticky</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 2. Position<br></p>
+						<p><b>Float</b> adalah properti CSS yang digunakan untuk menggeser elemen ke samping dan memungkinkan
+							elemen lain mengisi ruang di sekitarnya. Ini awalnya diciptakan untuk mengatur posisi gambar
+							dalam teks, tetapi kemudian digunakan untuk membuat tata letak kolom yang kompleks.</p>
+							<Table class="wh-p100 mg-10">
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">No</td>
+									<td class="b-c2 pd-5">Class</td>
+									<td class="b-c2 pd-5">Fungsi</td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">1</td>
+									<td class="b-c2 pd-5">fl-l</td>
+									<td class="b-c2 pd-5">Memberikan Float <i>Left</i></td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">2</td>
+									<td class="b-c2 pd-5">fl-r</td>
+									<td class="b-c2 pd-5">Memberikan Float <i>Right</i></td>
+								</tr>
+								<tr class="b-c2">
+									<td class="b-c2 pd-5">3</td>
+									<td class="b-c2 pd-5">fl-c</td>
+									<td class="b-c2 pd-5">Memberikan Float <i>Center</i></td>
+								</tr>
+								</tr>
+							</Table>
+							<p class="txa-center">Tabel 3. Float<br></p>
+
+						<h2>Overflow</h2>
+						<p class="mg-10">Overflow adalah bagaimana sebuah atribut ingin di tempatkan, Berjajar
+							Horizontal, vertikal atau berada di depan atrbiut lain dan sejenisnya. Berikut kode yang
+							bisa anda gunakan untuk memanggil fungsi display.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">ovf-a</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>Auto</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">ovf-sc</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>Scroll</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">ovf-hn</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>Hidden</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">ovf-vb</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>Visible</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">ovf-ih</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>Inherit</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">6</td>
+								<td class="b-c2 pd-5">ovf-it</td>
+								<td class="b-c2 pd-5">Memberikan Overflow <i>initial</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 4. Overflow<br></p>
+
+						<p>Jika anda ingin memberikan overflow pada posisi Y atau X anda bisa langsung saja tambahkan Y
+							atau X seperti contoh berikut : <br> <i><b>ovt-y-hd</b></i> </p>
+
+						<h2>Alignment Item</h2>
+						<p class="mg-10">Alignment adalah bagaimana sebuah atribut ingin di tempatkan, Berjajar
+							Horizontal, vertikal atau berada di depan atrbiut lain dan sejenisnya. Berikut kode yang
+							bisa anda gunakan untuk memanggil fungsi display.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">alit-cn</td>
+								<td class="b-c2 pd-5">Memberikan Align <i>Center</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">alit-st</td>
+								<td class="b-c2 pd-5">Memberikan Align <i>Stretch</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">alit-bl</td>
+								<td class="b-c2 pd-5">Memberikan Align <i>Baseline</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">alit-it</td>
+								<td class="b-c2 pd-5">Memberikan Align <i>Inherit</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">alit-fe</td>
+								<td class="b-c2 pd-5">Memberikan Align <i>Flex-End</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 5. Alignment Item<br></p>
+
+						<h2>Justify</h2>
+						<p class="mg-10">justify adalah bagaimana sebuah atribut ingin di tempatkan, Berjajar
+							Horizontal, vertikal atau berada di depan atrbiut lain dan sejenisnya. Berikut kode yang
+							bisa anda gunakan untuk memanggil fungsi display.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">jfc-cn</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Center</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">jfc-st</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Stretch</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">jfc-bl</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Baseline</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">jfc-it</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Inherit</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">jfc-fe</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Flex-End</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 6. Justify<br></p>
+
+						<!-- Fonts -->
+					</div>
+					<div class="show-2" id="cssc-Fonts">
+						<h1 class="mg-5">Fonts</h1>
+						<p class="mg-10">Fonts adalah gaya tulisan dari website yang anda ingin buat. Berikut beberapa Fonts yang sudah terinstal dan dapat kamu gunakan :</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">jfc-cn</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Center</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">jfc-st</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Stretch</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">jfc-bl</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Baseline</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">jfc-it</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Inherit</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">5</td>
+								<td class="b-c2 pd-5">jfc-fe</td>
+								<td class="b-c2 pd-5">Memberikan Justify <i>Flex-End</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 1. Fonts<br></p>
+					</div>
+
+					<!-- Font Styling -->
+					<div class="show-2" id="cssc-Font-Styling">
+						<h1 class="mg-5">Font Styling</h1>
+						<h2>Text Alignment</h2>
+						<p class="mg-10">Text Alignment adalah bagaimana anda ingin mengatur kalimat pada paragraf anda.
+							Apakah ingin sejajar kiri kanan, sejajar kanan saja atau sejajar kiri saja.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">txa-left</td>
+								<td class="b-c2 pd-5">Memberikan Text Alignment <i>Left</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">txa-right</td>
+								<td class="b-c2 pd-5">Memberikan Text Alignment <i>Right</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">txa-center</td>
+								<td class="b-c2 pd-5">Memberikan Text Alignment <i>Center</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">txa-justify</td>
+								<td class="b-c2 pd-5">Memberikan Text Alignment <i>Justify</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 1. Text Alignment<br></p>
+
+						<h2>Text Style</h2>
+						<p class="mg-10">Text Style adalah bagaimana anda ingin memberikan style/gaya pada teks atau
+							kalimat anda.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">txs-u</td>
+								<td class="b-c2 pd-5">Memberikan Text Style <i>Underlined</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">txs-n</td>
+								<td class="b-c2 pd-5">Memberikan Text Style <i>None</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">txs-b</td>
+								<td class="b-c2 pd-5">Memberikan Text Style <i>Bold</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">txs-i</td>
+								<td class="b-c2 pd-5">Memberikan Text Style <i>Italic</i></td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 2. Text Alignment<br></p>
+
+						<h2>Font Size</h2>
+						<p class="mg-10">Font Size adalah pengaturan untuk seberapa besar anda ingin meampilkan sebuah
+							kata atau kalimat.</p>
+						<Table class="wh-p100 mg-10">
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">No</td>
+								<td class="b-c2 pd-5">Class</td>
+								<td class="b-c2 pd-5">Fungsi</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">1</td>
+								<td class="b-c2 pd-5">fz-1</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 1 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">2</td>
+								<td class="b-c2 pd-5">fz-2</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 2 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">3</td>
+								<td class="b-c2 pd-5">fz-3</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 3 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-4</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 4 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-5</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 5 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-6</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 6 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-7</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 7 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-8</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 8 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">4</td>
+								<td class="b-c2 pd-5">fz-9</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 9 Pixel</td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">n</td>
+								<td class="b-c2 pd-5">fz-n</td>
+								<td class="b-c2 pd-5">Memberikan Font Size <i>n</i></td>
+							</tr>
+							<tr class="b-c2">
+								<td class="b-c2 pd-5">100</td>
+								<td class="b-c2 pd-5">fz-100</td>
+								<td class="b-c2 pd-5">Memberikan Font Size 100 Pixel</td>
+							</tr>
+						</Table>
+						<p class="txa-center">Tabel 3. Font Size<br></p>
+					</div>
+					<div class="show-2" id="cssc-Color">
+						<h1 class="mg-5">Color</h1>
+						<p class="mg-10">Deskripsi Color</p>
+					</div>
+					<div class="show-2" id="cssc-Sizing">
+						<h1 class="mg-5">Sizing</h1>
+						<p class="mg-10">Deskripsi Sizing</p>
+					</div>
+
+					<!-- Components -->
+					<div class="show-2" id="compt-Header">
+						<h1 class="mg-5">Header</h1>
+						<p class="mg-10">Deskripsi Header</p>
+					</div>
+					<div class="show-2" id="compt-Footer">
+						<h1 class="mg-5">Footer</h1>
+						<p class="mg-10">Deskripsi Footer</p>
+					</div>
+					<div class="show-2" id="compt-Card">
+						<h1 class="mg-5">Card</h1>
+						<p class="mg-10">Deskripsi Card</p>
+					</div>
+					<div class="show-2" id="compt-Login-Form">
+						<h1 class="mg-5">Login Form</h1>
+						<p class="mg-10">Deskripsi Login Form</p>
+					</div>
+					<div class="show-2" id="compt-Register-Form">
+						<h1 class="mg-5">Register Form</h1>
+						<p class="mg-10">Deskripsi Register Form</p>
+					</div>
+					<div class="show-2" id="compt-Sizing">
+						<h1 class="mg-5">Sizing</h1>
+						<p class="mg-10">Deskripsi Sizing</p>
+					</div>
+					<div class="show-2" id="compt-Buttin">
+						<h1 class="mg-5">Buttin</h1>
+						<p class="mg-10">Deskripsi Buttin</p>
+					</div>
+					<div class="show-2" id="compt-Show-Hide">
+						<h1 class="mg-5">Show-Hide</h1>
+						<p class="mg-10">Deskripsi Show-Hide</p>
+					</div>
+
+					<!-- Template Website -->
+					<div class="show-2" id="templ-Blog">
+						<h1 class="mg-5">Blog</h1>
+						<p class="mg-10">Deskripsi Blog</p>
+					</div>
+					<div class="show-2" id="templ-Company-Web">
+						<h1 class="mg-5">Company Website</h1>
+						<p class="mg-10">Deskripsi Company Website</p>
+					</div>
+					<div class="show-2" id="templ-CV-Web">
+						<h1 class="mg-5">CV Website</h1>
+						<p class="mg-10">Deskripsi CV Website</p>
+					</div>
+					<div class="show-2" id="templ-Porto-Web">
+						<h1 class="mg-5">Portofolio Website</h1>
+						<p class="mg-10">Deskripsi Portofolio Website</p>
+					</div>
+			</div>
+		</div>
+	</div>
+	<!-- Contents -->
+	<div class="mg-a wh-p100">
+		<div class="flex pdb-50 pdt-50">
+			<div class="flex-abs mg-a">
+				<div class="mgl-20"><a class="c-black" href="#">Privacy Policy</a></div>
+				<div class="mgl-20 mgb-10"><a class="c-black" href="#">Community</a></div>
+				<div class="mgl-20 mgb-10"><a class="c-black" href="get-start.html">Guides</a></div>
+			</div>
+		</div>
+	</div>
+	<!-- Footer-->
+	<div class="mg-p100 mg-a bc-blue-1 bs-1">
+		<div class="mg-a mx-wh-1200 mn-wh-765 flex-abs">
+			<div class="mg-15 flex-abs wh-p100">
+				<div class="mg-a txa-left c-white"><span class="fz-13">&#169;Copyright 2023</span></div>
+				<div class="mg-a txa-right c-white">
+					<span class="fz-13">Design By <a class="c-blue-2" href="#">Framadza</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

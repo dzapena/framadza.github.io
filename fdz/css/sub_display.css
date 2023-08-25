@@ -1,0 +1,71 @@
+/* Display */
+.inline {display: inline;}
+.inflex {display: inline-flex;}
+.inblock {display: inline-block;}
+.ingrid {display: inline-grid;}
+.flex {display: flex;}
+.block {display: block;}
+.grid {display: grid;}
+.dnone {display: none;}
+
+/* Floats */
+.fl-r{float: right;}
+.fl-l{float: left;}
+.fl-cn{float: center;}
+
+/* Display Absolute */
+.inline-abs {display: inline;}
+.inflex-abs {display: inline-flex;}
+.inblock-abs {display: inline-block;}
+.ingrid-abs {display: inline-grid;}
+.flex-abs {display: flex;}
+.block-abs {display: block;}
+.grid-abs {display: grid;}
+.none-abs {display: none;}
+
+/* Position */
+.pst-ab {position: absolute;}
+.pst-rt {position: relative;}
+.pst-fx {position: fixed;}
+.pst-st {position: static;}
+.pst-sk {position: sticky;}
+
+/* Overflow */
+.ovf-a {overflow: auto;}
+.ovf-sc {overflow: scroll;}
+.ovf-hn {overflow: hidden;}
+.ovf-vb {overflow: visible;}
+.ovf-ih {overflow: inherit;}
+.ovf-it {overflow: initial;}
+
+.ovf-y-a {overflow-y: auto;}
+.ovf-y-sc {overflow-y: scroll;}
+.ovf-y-hn {overflow-y: hidden;}
+.ovf-y-vb {overflow-y: visible;}
+.ovf-y-ih {overflow-y: inherit;}
+.ovf-y-it {overflow-y: initial;}
+
+.ovf-x-a {overflow-x: auto;}
+.ovf-x-sc {overflow-x: scroll;}
+.ovf-x-hn {overflow-x: hidden;}
+.ovf-x-vb {overflow-x: visible;}
+.ovf-x-ih {overflow-x: inherit;}
+.ovf-x-it {overflow-x: initial;}
+
+/* Align Item */
+.alit-cn {align-items: center;}
+.alit-st {align-items: stretch;}
+.alit-bl {align-items: baseline;}
+.alit-it {align-items: inherit;}
+.alit-fe {align-items: flex-end;}
+
+/* Justify Content */
+.jfc-cn {justify-content: center;}
+.jfc-st {justify-content: stretch;}
+.jfc-bl {justify-content: baseline;}
+.jfc-it {justify-content: inherit;}
+.jfc-fe {justify-content: flex-end;}
+
+@media only screen and (max-width: 768px) {
+  .flex {display: grid;}
+}

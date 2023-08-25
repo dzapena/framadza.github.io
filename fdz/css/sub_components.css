@@ -1,0 +1,65 @@
+@import "sub_fonts.css";
+/* Login Form Minimalis */
+.login-form-minimalis {
+    font-family: Poppins Reguler;
+    max-width: 450px;
+    min-width: 200px;
+    height: 100%;
+    margin: auto;
+    box-shadow: 0 0 3px 0;
+    border-radius: 20px;
+}
+.login-form-minimalis h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+.login-form-minimalis form div{
+    text-align: center;
+}
+.login-form-minimalis form div input {
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    width: 80%;
+    border: 2px transparent;
+    background-color: #eee;
+}
+.login-form-minimalis form {
+    text-align: center;
+}
+.login-form-minimalis form input {
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 10px;
+    width: 385px;
+    border: 2px transparent;
+}
+.lfb-1:hover {
+    background-color: aqua;
+    color: #fff;
+}
+.login-form-minimalis form p {
+    text-align: center;
+    padding: 10px;
+}
+.login-form-minimalis form p a {
+    color: rgb(8, 126, 126);
+}
+
+/* Button Show hide List 1*/
+#CBtn {display: none;}
+.btnl:hover {opacity: 50%;}
+#listing {display: none;}
+#CBtn:checked + #listing {display: block;}
+
+/* Button Show hide List 2*/
+.show-2 {
+    display: none;
+}
+.show-2:target {
+    display: block;
+}

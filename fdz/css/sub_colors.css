@@ -1,0 +1,150 @@
+/* Color */
+.c-white{color: #fff !important;}
+.c-black{color: #000 !important;}
+.c-red{color: #ff0000 !important;}
+.c-blue-1{color: #1572B6;}
+.c-blue-2{color: #35A8DB;}
+.c-blue-3{color: #00CED1;}
+.c-blue-4{color: #AFEEEE;}
+
+/* Background Color */
+.bc-bg-1 {background: #eee;}
+.bc-bg-2 {background: #DAE3E7;}
+.bc-white{background: #fff;}
+.bc-white-t1{background: rgba(255, 255, 255, 0.1)}
+.bc-white-t2{background: rgba(255, 255, 255, 0.2)}
+.bc-white-t3{background: rgba(255, 255, 255, 0.3)}
+.bc-white-t4{background: rgba(255, 255, 255, 0.4)}
+.bc-white-t5{background: rgba(255, 255, 255, 0.5)}
+.bc-white-t6{background: rgba(255, 255, 255, 0.6)}
+.bc-white-t7{background: rgba(255, 255, 255, 0.7)}
+.bc-white-t8{background: rgba(255, 255, 255, 0.8)}
+.bc-white-t9{background: rgba(255, 255, 255, 0.9)}
+.bc-black{background: #000;}
+.bc-black-t1{background: rgba(0, 0, 0, 0.1)}
+.bc-black-t2{background: rgba(0, 0, 0, 0.2)}
+.bc-black-t3{background: rgba(0, 0, 0, 0.3)}
+.bc-black-t4{background: rgba(0, 0, 0, 0.4)}
+.bc-black-t5{background: rgba(0, 0, 0, 0.5)}
+.bc-black-t6{background: rgba(0, 0, 0, 0.6)}
+.bc-black-t7{background: rgba(0, 0, 0, 0.7)}
+.bc-black-t8{background: rgba(0, 0, 0, 0.8)}
+.bc-black-t9{background: rgba(0, 0, 0, 0.9)}
+.bc-blue-1 {background: #1572B6;}
+
+.bc-blue-1-t1{background: rgba(21, 114, 182, 0.1)}
+.bc-blue-1-t2{background: rgba(21, 114, 182, 0.2)}
+.bc-blue-1-t3{background: rgba(21, 114, 182, 0.3)}
+.bc-blue-1-t4{background: rgba(21, 114, 182, 0.4)}
+.bc-blue-1-t5{background: rgba(21, 114, 182, 0.5)}
+.bc-blue-1-t6{background: rgba(21, 114, 182, 0.6)}
+.bc-blue-1-t7{background: rgba(21, 114, 182, 0.7)}
+.bc-blue-1-t8{background: rgba(21, 114, 182, 0.8)}
+.bc-blue-1-t9{background: rgba(21, 114, 182, 0.9)}
+.bc-blue-2 {background: #35A8DB;}
+.bc-blue-2-t1{background: rgba(53, 168, 219, 0.1)}
+.bc-blue-2-t2{background: rgba(53, 168, 219, 0.2)}
+.bc-blue-2-t3{background: rgba(53, 168, 219, 0.3)}
+.bc-blue-2-t4{background: rgba(53, 168, 219, 0.4)}
+.bc-blue-2-t5{background: rgba(53, 168, 219, 0.5)}
+.bc-blue-2-t6{background: rgba(53, 168, 219, 0.6)}
+.bc-blue-2-t7{background: rgba(53, 168, 219, 0.7)}
+.bc-blue-2-t8{background: rgba(53, 168, 219, 0.8)}
+.bc-blue-2-t9{background: rgba(53, 168, 219, 0.9)}
+.bc-blue-3{background: #00CED1;} /* Dark Turquoise */
+.bc-blue-3-t1{background: rgba(0, 206, 209, 0.1)}
+.bc-blue-3-t2{background: rgba(0, 206, 209, 0.2)}
+.bc-blue-3-t3{background: rgba(0, 206, 209, 0.3)}
+.bc-blue-3-t4{background: rgba(0, 206, 209, 0.4)}
+.bc-blue-3-t5{background: rgba(0, 206, 209, 0.5)}
+.bc-blue-3-t6{background: rgba(0, 206, 209, 0.6)}
+.bc-blue-3-t7{background: rgba(0, 206, 209, 0.7)}
+.bc-blue-3-t8{background: rgba(0, 206, 209, 0.8)}
+.bc-blue-3-t9{background: rgba(0, 206, 209, 0.9)}
+.bc-blue-4{background: #AFEEEE;} /* Pale Turquoise */
+.bc-blue-4-t1{background: rgba(175, 238, 238, 0.1)}
+.bc-blue-4-t2{background: rgba(175, 238, 238, 0.2)}
+.bc-blue-4-t3{background: rgba(175, 238, 238, 0.3)}
+.bc-blue-4-t4{background: rgba(175, 238, 238, 0.4)}
+.bc-blue-4-t5{background: rgba(175, 238, 238, 0.5)}
+.bc-blue-4-t6{background: rgba(175, 238, 238, 0.6)}
+.bc-blue-4-t7{background: rgba(175, 238, 238, 0.7)}
+.bc-blue-4-t8{background: rgba(175, 238, 238, 0.8)}
+.bc-blue-4-t9{background: rgba(175, 238, 238, 0.9)}
+
+.bc-red-1{background: #9c1c54;} /* Purple Red */
+.bc-red-1-t1{background: rgba(156, 28, 84, 0.1)}
+.bc-red-1-t2{background: rgba(156, 28, 84, 0.2)}
+.bc-red-1-t3{background: rgba(156, 28, 84, 0.3)}
+.bc-red-1-t4{background: rgba(156, 28, 84, 0.4)}
+.bc-red-1-t5{background: rgba(156, 28, 84, 0.5)}
+.bc-red-1-t6{background: rgba(156, 28, 84, 0.6)}
+.bc-red-1-t7{background: rgba(156, 28, 84, 0.7)}
+.bc-red-1-t8{background: rgba(156, 28, 84, 0.8)}
+.bc-red-1-t9{background: rgba(156, 28, 84, 0.9)}
+.bc-red-2{background: #8B0000;} /* dark Red */
+.bc-red-2-t1{background: rgba(139,0,0, 0.1)}
+.bc-red-2-t2{background: rgba(139,0,0, 0.2)}
+.bc-red-2-t3{background: rgba(139,0,0, 0.3)}
+.bc-red-2-t4{background: rgba(139,0,0, 0.4)}
+.bc-red-2-t5{background: rgba(139,0,0, 0.5)}
+.bc-red-2-t6{background: rgba(139,0,0, 0.6)}
+.bc-red-2-t7{background: rgba(139,0,0, 0.7)}
+.bc-red-2-t8{background: rgba(139,0,0, 0.8)}
+.bc-red-2-t9{background: rgba(139,0,0, 0.9)}
+.bc-red-3{background: #DC143C;} /* Crimson */
+.bc-red-3-t1{background: rgba(220,20,60, 0.1)}
+.bc-red-3-t2{background: rgba(220,20,60, 0.2)}
+.bc-red-3-t3{background: rgba(220,20,60, 0.3)}
+.bc-red-3-t4{background: rgba(220,20,60, 0.4)}
+.bc-red-3-t5{background: rgba(220,20,60, 0.5)}
+.bc-red-3-t6{background: rgba(220,20,60, 0.6)}
+.bc-red-3-t7{background: rgba(220,20,60, 0.7)}
+.bc-red-3-t8{background: rgba(220,20,60, 0.8)}
+.bc-red-3-t9{background: rgba(220,20,60, 0.9)}
+
+/* Hover Item */
+.hva-1 {box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.hva-2 {box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;}
+.hva-3{box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;}
+.hv-1:hover {box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.hv-2:hover {box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;}
+.hv-3:hover{box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;}
+
+/* Image Background */
+.bg-geo-1 {
+	background-image: url('../img/bg-geo-1.png');
+	background-size: 100%;
+	background-repeat: repeat-y;}
+.bg-geo-2 {
+	background-image: url('../img/bg-geo-2.png');
+	background-size: 100%;
+	background-repeat: repeat-y;}
+.bg-geo-2 {
+	background-image: url('../img/bg-geo-3.png');
+	background-size: 100%;
+	background-repeat: repeat-y;}
+.bg-geo-3 {
+	background-image: url('../img/bg-geo-4.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}
+.bg-geo-4 {
+	background-image: url('../img/bg-geo-5.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}
+.bg-geo-5 {
+	background-image: url('../img/bg-geo-6.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}
+.bg-geo-6 {
+	background-image: url('../img/bg-geo-7.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}
+.bg-geo-7 {
+	background-image: url('../img/bg-geo-8.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}
+.bg-geo-8 {
+	background-image: url('../img/bg-geo-9.png');
+	background-size: 100%;
+	background-repeat: no-repeat;}

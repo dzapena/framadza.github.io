@@ -1,0 +1,12 @@
+Antique White (#FAEBD7)
+Aquamarine (#7FFFD4)
+Azure (#F0FFFF)
+Beige (#F5F5DC)
+Cadet Blue (#5F9EA0)
+Dark Sea Green (#8FBC8F)
+Light Sea Green (#20B2AA)
+Powder Blue (#B0E0E6)
+Orange (#FFA500)
+
+
+
